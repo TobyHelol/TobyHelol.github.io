@@ -13,38 +13,69 @@
   </head> 
 
   <body>
-    <div class="navbar">
+    <span class="navbar">
       <ul>
         <li><p>About me</p></li>
         <li><p>My photos</p></li>
         <li><p>My birdwatching</p></li>
         <li><p>My chemisry</p></li>
       </ul>
-    </div>
-    <div class="intro">
-      <div class="text">Hi, I'm<br><span id="name">Toby He</span></div>
-      <div class="pic"><img src=assets/IMG_0060.jpg></div>
-    </div>
-   <div class="about"><p>About Me</p></div>
+      <span id="no">
+        <span class="EN">EN</span>
+        <input type="checkbox" class="check">
+        <span class="CN">CN</span>
+      </span>
+    </span>
+    <div class="text textEN">
+      <div class="intro">
+        <div class="hello1">Hi, I'm<br><span id="name">Toby He</span></div>
+        <div class="pic1"><img src=assets/IMG_0060.jpg></div>
+      </div>
+      <div class="about"><p>About Me</p></div>
         <model-viewer src="Knowledge Base.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
           <div class="progress-bar hide" slot="progress-bar">
               <div class="update-bar"></div>
           </div>
-          <button slot="ar-button" id="ar-button">
-              View in your space
-          </button>
+          <button slot="ar-button" id="ar-button">View in your space</button>
           <div id="ar-prompt">
               <img src="ar_hand_prompt.png">
           </div>
         </model-viewer>  
         <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
-    <div class="about"><p>My Photos</p></div>
-    <div class="container">
-      <div class="gallery">
-        <div class="img-box"><h3>Hong Kong Skyline</h3></div>
-        <div class="img-box"><h3>Hong Kong Skyline</h3></div>
-        <div class="img-box"><h3>Hong Kong Skyline</h3></div>
-        <div class="img-box"><h3>Hong Kong Skyline</h3></div>
+      <div class="about"><p>My Photos</p></div>
+      <div class="container">
+        <div class="gallery">
+          <div class="img-box"><h3>Hong Kong Skyline</h3></div>
+          <div class="img-box"><h3>Hong Kong Skyline</h3></div>
+          <div class="img-box"><h3>Hong Kong Skyline</h3></div>
+          <div class="img-box"><h3>Hong Kong Skyline</h3></div>
+        </div>
+      </div>
+    </div>
+    <div class="text textCN">
+      <div class="intro">
+        <div class="hello2"><p>嗨，我是<br><span id="name2">何旻泽</span></p></div>
+        <div class="pic2"><img src=assets/IMG_0060.jpg></div>
+      </div>
+      <div class="about"><p>关于我</p></div>
+        <model-viewer src="Knowledge Base.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+          <button slot="ar-button" id="ar-button">View in your space</button>
+          <div id="ar-prompt">
+              <img src="ar_hand_prompt.png">
+          </div>
+        </model-viewer>  
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+      <div class="about"><p>摄影集</p></div>
+      <div class="container">
+        <div class="gallery">
+          <div class="img-box"><h3>香港天际线</h3></div>
+          <div class="img-box"><h3>香港天际线</h3></div>
+          <div class="img-box"><h3>香港天际线</h3></div>
+          <div class="img-box"><h3>香港天际线</h3></div>
+        </div>
       </div>
     </div>
   </body>

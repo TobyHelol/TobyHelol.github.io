@@ -19,3 +19,5 @@ My personal site.
 - https://modelviewer.dev/ - generating html template for 3D model
 
 - https://inforapid.org/webapp/webapp.php - genertaing 3D mind map
+
+- https://www.youtube.com/watch?v=ly4Dqz2Mz8s&ab_channel=GreatStack - photo gallery
