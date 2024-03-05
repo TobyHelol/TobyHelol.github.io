@@ -254,36 +254,67 @@ model-viewer {
    align-items: center;
    justify-content: center;
 }
-.gallery{
+.gallery1{
    display: flex;
    align-items: center;
    justify-content: center;
+}
+.gallery2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img-box{
    width:100px;
    height:500px;
    margin:10px;
    border-radius: 50px;
-   background: url(_DSC3158.jpg);
+   background: url(https://i.pinimg.com/736x/2e/9f/fa/2e9ffa673b2c037028087a753984d8e5.jpg);
    background-size: cover;
    background-position: center;
    position:relative;
    transition: width 0.5s;
 }
 .img-box:nth-child(2){
-   background: url(_DSC3166.jpg);
+   background: url(https://i.pinimg.com/736x/15/33/2b/15332b5b647ac2a57b3ef133531cf3b5.jpg);
    background-size: cover;
    background-position: center;
 }
 .img-box:nth-child(3){
-   background: url(_DSC3171.jpg);
+   background: url(https://i.pinimg.com/736x/be/97/83/be978324c65ad0e4a43587e40a4229c7.jpg);
    background-size: cover;
    background-position: center;
 }
 .img-box:nth-child(4){
-   background: url(_DSC3176.jpg);
+   background: url(https://i.pinimg.com/736x/13/f5/fe/13f5fe21453a822949f43b5088a49bd9.jpg);
    background-size: cover;
    background-position: center;
+}
+.img-box2{
+  width:100px;
+  height:500px;
+  margin:10px;
+  border-radius: 50px;
+  background: url(https://i.pinimg.com/736x/fc/0e/6a/fc0e6a0e8f83265737b3941af2e0b68f.jpg);
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  transition: width 0.5s;
+}
+.img-box2:nth-child(2){
+  background: url(https://i.pinimg.com/736x/b2/36/f4/b236f44ec2a989528cd939ae2f28a6b6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img-box2:nth-child(3){
+  background: url(https://i.pinimg.com/736x/bf/4b/ce/bf4bce61466aa5b46b647cc4a98360b8.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img-box2:nth-child(4){
+  background: url(https://i.pinimg.com/736x/46/81/8f/46818f453a348af03b2e0055ffaf1f62.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .img-box h3{
    color:white;
@@ -293,8 +324,16 @@ model-viewer {
    opacity: 0;
    transition:bottom 0.5s,opacity 0.5s;
 }
+.img-box2 h3{
+  color:white;
+  position:absolute;
+  bottom:0;
+  left:30px;
+  opacity: 0;
+  transition:bottom 0.5s,opacity 0.5s;
+}
 .img-box:hover{
-   width:300px;
+   width:450px;
    cursor:pointer;
 }
 .img-box:hover h3{
@@ -302,3 +341,11 @@ model-viewer {
    bottom:25px;
 }
 
+.img-box2:hover{
+  width:450px;
+  cursor:pointer;
+}
+.img-box2:hover h3{
+  opacity: 1;
+  bottom:25px;
+}

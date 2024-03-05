@@ -21,3 +21,5 @@ My personal site.
 - https://inforapid.org/webapp/webapp.php - genertaing 3D mind map
 
 - https://www.youtube.com/watch?v=ly4Dqz2Mz8s&ab_channel=GreatStack - photo gallery
+
+- https://www.youtube.com/watch?v=RS8fW6dhdG8&themeRefresh=1 - language switch toggle
