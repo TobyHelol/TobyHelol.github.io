@@ -38,7 +38,7 @@ body {
 }
 
 .check:checked::before{
-  background: orange;
+  background: #FEC37D;
 }
 
 
@@ -57,7 +57,7 @@ body {
 
 .check:checked::after{
   left:12px;
-  border:2px solid orange; 
+  border:2px solid #FEC37D; 
 }
 
 .check:checked ~ .text.textEN{
@@ -73,7 +73,7 @@ body {
 }
 
 .check:checked ~ .CN{
-  color: orange;
+  color: #FEC37D;
 }
 
 .check:checked ~ .text.textCN{
@@ -102,7 +102,7 @@ li a{
 }
 
 li a:hover{
-    color:orange;
+    color:#FEC37D;
 }
 
 #no{
@@ -114,7 +114,14 @@ li a:hover{
   padding-left:1300px;
 }
 
+#big{
+  font-size: 180%;
+  color:#FEC37D;
+}
 
+.introduction p{
+  font-size: 110%;
+}
 
 .navbarEN{
     width:100%;
@@ -125,10 +132,24 @@ li a:hover{
     justify-content: space-between;
     position:sticky;
 }
-
+.navbarEN li{
+  font-size: 120%;
+}
 .navbarCN li{
   font-size: 120%;
 }
+
+.introduction{
+  padding-left:100px;
+  padding-right:100px;
+}
+
+.introduction p{
+  padding:20px 20px 30px 30px;
+  border: 3px solid #CEC9C9;
+  border-radius: 50px;
+}
+
 
 .navbarCN{
   width:100%;
@@ -497,5 +518,18 @@ model-viewer > #ar-prompt > img {
     .img-box2:hover{
       width:200px;
       cursor:pointer;
+  }
+  .introduction{
+    padding-left:30px;
+    padding-right:10px;
+  }
+  .introduction p{
+    font-size:90%;
+  }
+  #big{
+    font-size: 160%;
+  }
+  .navbarEN a{
+    font-size: 99%;
   }
 }
